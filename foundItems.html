@@ -1,0 +1,7 @@
+<h3>Search Results</h3>
+<ul>
+	<li ng-repeat="item in list.items">
+		<list-item-description></list-item-description>
+		<button ng-click="list.onRemove({idx: $index});">Don't want this one!</button>
+	</li>
+</ul>
